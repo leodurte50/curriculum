@@ -1,0 +1,350 @@
+/* Estilização do currículo */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00698f;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00698f;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00698f;
+  }
+  
+  a:hover {
+    color: #00698f;
+  }
+  
+  nav {
+    background-color: #00698f;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #00698f;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+
+  /* Contraste de Cores */
+body {
+    background-color: #f9f9f9;
+  }
+  
+  nav {
+    background-color: #00698f;
+  }
+  
+  footer {
+    background-color: #00698f;
+  }
+/* Contraste entre Menu e Resto da Página */
+nav {
+    background-color: #00698f;
+    color: #fff;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }  
+
+/* Fixação do Menu */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00698f;
+    padding: 10px;
+    text-align: center;
+  }  
+
+  /* Posicionamento Vertical */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+
+/* Posicionamento Horizontal */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }  
+
+/* Posicionamento Vertical para Registros de Educação e Experiência */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  section li {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }  
+
+/* Posicionamento Vertical para Dados de Contato */
+header p {
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
+ 
+/* Posicionamento Vertical para Nome e Foto */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+    margin-bottom: 10px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
+
+/* Posicionamento Vertical para Texto de Apresentação */
+header p {
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
+
+/* Posicionamento Vertical para Dados de Contato */
+header p {
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
+/* Posicionamento Vertical para Nome e Foto */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+    margin-bottom: 10px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
+/* Posicionamento Vertical para Texto de Apresentação */
+header p {
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  } 
+
+/* Posicionamento Vertical para Dados de Contato */
+header p {
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
+
+/* Posicionamento Vertical para Nome e Foto */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+    margin-bottom: 10px;
+  }
+  
+  header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }  
